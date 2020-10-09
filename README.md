@@ -32,8 +32,8 @@ gammaRaySimulation_model.fit(X, y)
 
 
 # Make predictions for the first few rows of the training data to see how the predict function works.
-print("Making predictions for the following 5 houses:")
+print("Making predictions for the first 5 rows:")
 print(X.head())
 print("The predictions are")
-print(melbourne_model.predict(X.head()))
+print(gammaRaySimulation_model.predict(X.head()))
 
