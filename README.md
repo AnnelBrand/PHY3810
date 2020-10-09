@@ -24,14 +24,14 @@ X.head()
 # Building the Model
 from sklearn.tree import DecisionTreeClassifier
 
-# Define model. Specify a number for random_state to ensure same results each run
+# Define model. Specify a number for random_state to ensure same results each run.
 gammaRaySimulation_model = DecisionTreeClassifier(random_state=1)
 
 # Fit model
 gammaRaySimulation_model.fit(X, y)
 
 
-# make predictions for the first few rows of the training data to see how the predict function works
+# Make predictions for the first few rows of the training data to see how the predict function works.
 print("Making predictions for the following 5 houses:")
 print(X.head())
 print("The predictions are")
